@@ -1,0 +1,14 @@
+name = "Sultan"
+surname = "Ermanaly"
+print("My full name is %s %s" % (surname,name))
+
+print("This+year+is+mine...I promise")
+
+a = 100
+b = 200
+print("Sum of %i and %i is equal to") % (a,b), a + b
+print("Multiplication of %i and %i is equal to") % (a,b), a * b
+print("Square roots of %i and %i is equal to ") % (a,b), (a+b)**0.5
+print("3rd degree of %i and %i is equal to") % (a,b), (a+b)**3
+print(" My {1} name is Ermanaly and my {0} name is Sultan").format("first", "last")
+
